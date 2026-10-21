@@ -1,0 +1,15 @@
+{
+  "disclosure": "opaque",
+  "package": "org.jresearch.ai/landscape-model-guidance",
+  "payload_sha256": "211d0acfe959374ab1453027fce49ee029250957fe5fa4ed5b12cff72d118648",
+  "schema": 1,
+  "sha256": {
+    "LICENSE": "ed2b2ca569b1fa8d368f3fb44800d97ead12f2286a164672c9dc20dfa87db552",
+    "README.md": "a0bff913327dae51ab72a83296dff152bdd5bc530e65653b438e0e1506663afb",
+    "vibe.toml": "04a9551ccb0e8ba6de397c23fd1a3dbe45bbe39cffe86ed2d860aeb0e1796fc6",
+    "vibevm/vibespecs/boot/landscape-model-guidance.md": "55f92b797ce1b93b434cb8b11820e7ec87ce3a18c67a7971888169dafe10c9c4",
+    "vibevm/vibespecs/protocols/model-selection.md": "8bd6f50e2c2179a3bd66a9d517e25dcb4d2642878fb2c28ff510938451156dea",
+    "vibevm/vibespecs/reference/evidence.md": "07c30483170b63aea47662098f3e45672c5607be2cea9676625537418f482bc8"
+  },
+  "version": "1.0.2"
+}
