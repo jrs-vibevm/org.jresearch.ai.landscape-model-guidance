@@ -4,7 +4,7 @@ Use this guidance when the consumer chooses this frozen reference for a new
 selection or assessment. Apply the consumer's actual task, client and risk/cost
 constraints. These are Landscape recommendations, not provider guarantees,
 consumer allowlists or permanent access entitlements. Public evidence was checked
-on **2026-10-21**; see [dated evidence and sources](../reference/evidence.md).
+on **2026-11-02**; see [dated evidence and sources](../reference/evidence.md).
 
 ## Resolve under consumer authority
 
@@ -40,11 +40,13 @@ without a new ranking or recommendation:
 | Sol escalation | `gpt-6.1-sol / max` | Validate a task-specific benefit over xhigh |
 | Exceptional quality escalation | `gpt-6-astra / max` | Marginal quality justifies cost and consumer policy permits it |
 
-The Coding Agent Index v1.5 and Intelligence Index v4.3.2 measure different
-task mixes. Sol/xhigh has the stronger coding composite than Sol/max in the
-checked results, while max is higher on Intelligence Index. Neither index
-proves which profile will win on a particular consumer task. Astra/max remains
-an exceptional recommendation; its historical CLI minimum is unconfirmed.
+The current Coding Agent Index v2.0 has no Sol/xhigh row. Its historical v1.5
+advantage over Sol/max is dated evidence, not a comparison with current results.
+Intelligence Index v5.0 measures a different task mix and cannot fill the coding
+gap. Retain the accepted default pending comparable coding or consumer-task
+evidence; max and Terra results do not measure Sol/xhigh. Neither index proves
+which profile wins a particular task. Astra/max remains exceptional; its
+historical CLI minimum is unconfirmed.
 
 ## Bounded assignment recommendations
 
@@ -90,8 +92,9 @@ is the default unless the user requests another speed; this flow configures
 neither speed nor delegation.
 
 Read a benchmark together with model generation, explicit effort, index version,
-harness and components. Do not mix Coding Agent Index v1.5 with v1.4, replace
-missing coding profiles with Intelligence Index scores, or infer Codex access
+harness and components. Do not numerically mix Coding Agent Index v2.0 with
+v1.5 or Intelligence Index v5.0 with v4.3.2, replace missing coding profiles
+with Intelligence Index scores, or infer Codex access
 from an external leaderboard. Intelligence Index numbers may change within a
 version through evaluation/methodology changes. Provider claims are distinct
 from independent measurements and consumer results.
